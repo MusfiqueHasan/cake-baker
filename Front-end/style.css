@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Header */
+.main-header{
+    background: #FAF6F6;
+   height: auto;
+   padding-top:6%;
+   padding-bottom: 8%;
+   
+}
+.header-title p{
+    text-align: justify;
+    
+}
+.header-btn{
+    background: #E08E80;
+    border-radius: 4px;
+    border: none; 
+    outline: none;
+}
+.menu a{
+    display: inline-block;
+}
+.menu a:hover::after{
+    content: '';
+    width: 100%;
+    display: block;
+    height: 2px;
+    background-color: #E08E80;
+}
+
+/* Header end */
+
+
+
+/* Main */
+.offer{
+    background: #F4DDDC;
+    height:165px;
+    margin-bottom: 50px;
+    
+}
+
+.offer-img{
+    position: relative;
+}
+
+.offer-img img{
+    position: absolute;
+    top: -30px;
+    left: 100px;
+}
+
+.offer-heading h2{
+font-weight:400;
+}
+.birthday-btn{
+    background-color: white;
+    border: 1px solid #E08E80;
+    border-radius: 4px;
+    color: #E08E80 ;
+}
+.birthday-btn:hover{
+    background-color: #E08E80;
+    border-radius: 4px;
+    border: none; 
+    outline: none;
+    color: white;
+
+}
+.get{
+    background: #FAF6F6;
+    height: auto;
+
+}
+
+.baking-heading h1::before{
+    content: '';
+    width: 5px;
+    display: inline-block;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.all, .get, .baking, .footer{
+    margin-top: 100px;
+}
+
+/* Main end */
+
+
+/* Footer */
+.footer{
+    background: #5A3731;
+    height: 173px;
+}
