@@ -64,6 +64,8 @@ font-weight:400;
     border: 1px solid #E08E80;
     border-radius: 4px;
     color: #E08E80 ;
+    cursor: pointer;
+    text-decoration: none;
 }
 .birthday-btn:hover{
     background-color: #E08E80;
