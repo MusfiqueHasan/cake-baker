@@ -107,7 +107,9 @@ font-weight:400;
 
 
 /* ..........................................All Categories................................. */
-
+.categories-main{
+    background: #FAF6F6;
+}
 .categories .cate-color{
     color: #E08E80;
 }
@@ -130,4 +132,21 @@ font-weight:400;
 }
 .img-4{
     background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url(images/pic-5.png);
+}
+.bdy-nav{
+    margin-bottom: 90px;
+}
+.bdy-title{
+    margin-left: 300px;
+}
+.bdy-card{
+    color: #E08E80;
+}
+.cart-details{
+    padding: 20px 150px;
+}
+
+.cart-span{
+    background: #E08E80;
+   
 }
