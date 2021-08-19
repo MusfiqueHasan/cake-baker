@@ -31,6 +31,7 @@
     display: block;
     height: 2px;
     background-color: #E08E80;
+    
 }
 
 /* Header end */
@@ -72,12 +73,12 @@ font-weight:400;
     color: white;
 
 }
+  
 .get{
     background: #FAF6F6;
     height: auto;
 
 }
-
 .baking-heading h1::before{
     content: '';
     width: 5px;
@@ -102,4 +103,31 @@ font-weight:400;
 .footer{
     background: #5A3731;
     height: 173px;
+}
+
+
+/* ..........................................All Categories................................. */
+
+.categories .cate-color{
+    color: #E08E80;
+}
+
+
+.img{
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    background-position: center ;
+}
+.img-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url(images/pic-2.png);
+}
+.img-2{
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url(images/pic-3.png);
+}
+.img-3{
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url(images/pic-4.png);
+}
+.img-4{
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url(images/pic-5.png);
 }
